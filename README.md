@@ -5,4 +5,5 @@ Identifying determinants of tourist destination choice is an important task in t
 
 ### Interactive Visualization
 Acadia National Park: https://flowmap.blue/from-url?flows=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/acadia_tripflow.csv&locations=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/acadia_attractions.csv
+
 Yosemite National Park: https://flowmap.blue/from-url?flows=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/yosemite_tripflow.csv&locations=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/yosemite_attractions.csv
