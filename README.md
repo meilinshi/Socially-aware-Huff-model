@@ -8,6 +8,5 @@ Identifying determinants of tourist destination choice is an important task in t
 
 ### Interactive Visualization using [flowmap.blue](https://flowmap.blue/)
 Flow map visualization of trips in [Acadia National Park](https://flowmap.blue/from-url?flows=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/acadia_tripflow.csv&locations=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/acadia_attractions.csv) and [Yosemite National Park](https://flowmap.blue/from-url?flows=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/yosemite_tripflow.csv&locations=https://raw.githubusercontent.com/meilinshi/Socially-aware-Huff-model/master/yosemite_attractions.csv). 
-
-Attractions are represented as nodes. The size of nodes is determined by the total number of incoming and outgoing trips. The width of edges is determined by the number of trips.
+- Attractions are represented as nodes. The size of nodes is determined by the total number of incoming and outgoing trips. The width of edges is determined by the number of trips.
 
