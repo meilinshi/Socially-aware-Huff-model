@@ -2,6 +2,7 @@
 
 ### Data and Code
 `./Data/` contains the data retrieved using [Flickr API](https://www.flickr.com/services/api/) in Acadia and Yosemite National Parks from Jan 1, 2010 to Dec 31, 2019.
+
 `./Code/` contains the source code to construct trip sequences from geotagged photos and the proposed socially-aware Huff model.
 
 ### Abstract
