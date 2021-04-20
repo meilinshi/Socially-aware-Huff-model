@@ -3,9 +3,9 @@
 ### Data and Code
 `./Data/` contains the data retrieved using [Flickr API](https://www.flickr.com/services/api/) in Acadia and Yosemite National Parks from Jan 1, 2010 to Dec 31, 2019.
 
-Query used to access the data: 
+The example query used to access the data in Acadia National Park: 
 
-flickr.photos.search(min_taken_date = begin_date, max_taken_date = end_date, accuracy = '11', bbox = 'bounding box of the park', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
+flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31', accuracy = '11', bbox = '-68.5, 44.0, -68.0, 44.5', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
 
 
 `./Code/` contains the source code to construct trip sequences from geotagged photos and the proposed socially-aware Huff model.
