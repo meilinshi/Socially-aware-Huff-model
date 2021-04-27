@@ -6,8 +6,8 @@
   flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31', accuracy = '11', bbox = '-68.5, 44.0, -68.0, 44.5', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
   ```
 - `./Code/` contains the source code:
-  - Step 1: `Trip Construction.ipynb`: a workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos
-  - Step 2: `SA-Huff model.ipynb`: a workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
+  - Step 1: `Trip Construction.ipynb` - a workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos
+  - Step 2: `SA-Huff model.ipynb` - a workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
 
 ### Binder
 A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD).
