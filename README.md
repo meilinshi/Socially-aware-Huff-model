@@ -11,7 +11,8 @@ flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31
 - `Trip Construction.ipynb` to construct trip sequences from geotagged photos
 - `SA-Huff model.ipynb` to calibrate the proposed socially-aware Huff model
 
-A Binder version can be accessed [here](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/f27b4ff2d745fb446bd71e31ef762c51ed7ffd51).
+### Binder
+A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD).
 
 #### Notes
 The `requirements.txt` file should list all Python libraries that the notebooks depend on, and they will be installed using:
