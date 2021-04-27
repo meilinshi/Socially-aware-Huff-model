@@ -1,15 +1,13 @@
 # Socially-aware-Huff-model
 
 ### Data and Code
-`./Data/` contains the data retrieved using [Flickr API](https://www.flickr.com/services/api/) in Acadia and Yosemite National Parks from Jan 1, 2010 to Dec 31, 2019.
-
-The example query used to access the data in Acadia National Park: 
-```
-flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31', accuracy = '11', bbox = '-68.5, 44.0, -68.0, 44.5', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
-```
-`./Code/` contains the source code:
-- `Trip Construction.ipynb` to construct trip sequences from geotagged photos
-- `SA-Huff model.ipynb` to calibrate the proposed socially-aware Huff model
+- `./Data/` contains the data retrieved using [Flickr API](https://www.flickr.com/services/api/) in Acadia and Yosemite National Parks from Jan 1, 2010 to Dec 31, 2019. The example query used to access the data in Acadia National Park: 
+  ```
+  flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31', accuracy = '11', bbox = '-68.5, 44.0, -68.0, 44.5', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
+  ```
+- `./Code/` contains the source code:
+  - `Trip Construction.ipynb`: a workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos
+  - `SA-Huff model.ipynb`: a workflow to calibrate the proposed socially-aware Huff model with the probability matrix generated
 
 ### Binder
 A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD).
