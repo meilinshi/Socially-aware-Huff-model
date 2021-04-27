@@ -7,8 +7,17 @@ The example query used to access the data in Acadia National Park:
 
 flickr.photos.search(min_taken_date = '2010-01-01', max_taken_date = '2019-12-31', accuracy = '11', bbox = '-68.5, 44.0, -68.0, 44.5', per_page = '100', extras='date_taken, tags, geo, views', page=1)['photos']['photo']
 
+`./Code/` contains the source code:
+- `Trip Construction.ipynb` to construct trip sequences from geotagged photos
+- `SA-Huff model.ipynb` to calibrate the proposed socially-aware Huff model
 
-`./Code/` contains the source code to construct trip sequences from geotagged photos and the proposed socially-aware Huff model.
+A Binder version can be accessed here:
+https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/8a534e400ba3c388b1822b33375c6cac29445bf8
+#### Notes
+The `requirements.txt` file should list all Python libraries that the notebooks depend on, and they will be installed using:
+```
+pip install -r requirements.txt
+```
 
 ### Abstract
 Identifying determinants of tourist destination choice is an important task in the study of nature-based tourism. Traditionally, the study of tourist behavior relies on survey data and travel logs, which are labor-intensive and time-consuming. Thanks to location-based social networks, more detailed data is available at a finer grained spatio-temporal scale. This allows for better insights into travel patterns and interactions between attractions, e.g., parks. Meanwhile, such data sources also bring along a novel social influence component that has not yet been widely studied in terms of travel decisions. For example, social influencers post about certain places, which tend to influence destination choices of tourists. Therefore, in this paper, we propose a socially aware Huff model to account for this social factor in the study of destination choice. Moreover, with fine-grained social media data, interactions between attractions (i.e., the neighboring effects) can be better quantified and thus integrated into models as another factor. In our experiment, we calibrate a model by using trip sequences extracted from geotagged Flickr photos within two national parks in the United States. Our results demonstrate that the socially aware Huff model better simulates tourist travel preferences. In addition, we explore the significance of each factor and summarize the spatial-temporal travel pattern for each attraction. The socially aware Huff model and the calibration method can be applied to other fields such as promotional marketing.
