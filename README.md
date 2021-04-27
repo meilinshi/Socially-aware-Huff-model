@@ -15,7 +15,7 @@ A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Soc
 #### Notes
 The `requirements.txt` file should list all Python libraries that the notebooks depend on, and they will be installed using:
 ```
-pip install -r requirements.txt
+!pip install -r requirements.txt
 ```
 
 ### Abstract
