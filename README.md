@@ -7,7 +7,7 @@
   ```
 - `./Code/` contains the source code:
   - Step 1: `Trip Construction.ipynb` - a workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos
-  - Step 2: `SA-Huff model.ipynb` - a workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
+  - Step 2: `SA-Huff_model_Acadia.ipynb` and `SA-Huff_model_Yosemite.ipynb`- workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
 
 ### Binder
 A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD).
