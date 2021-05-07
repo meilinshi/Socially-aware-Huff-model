@@ -10,7 +10,7 @@
   - Step 2: `SA-Huff_model_Acadia.ipynb` and `SA-Huff_model_Yosemite.ipynb`- workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
 
 ### Binder
-A Binder version can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD).
+A Binder version, which allows you to open the notebooks and reproduce the code in an executable environment, can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD). There is no need to download the code or software.
 
 #### Notes
 The `requirements.txt` file should list all Python libraries that the notebooks depend on, and they will be installed using:
