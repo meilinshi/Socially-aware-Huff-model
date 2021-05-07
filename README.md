@@ -10,7 +10,7 @@
     - A workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos. You can change the parameters in the model and generate your own output under the Binder environment.
   - Step 2: `SA-Huff_model_Acadia.ipynb` and `SA-Huff_model_Yosemite.ipynb` 
     - A workflow to calibrate the proposed socially-aware Huff model with the probability matrices generated from `Trip Construction.ipynb` for the two national parks. 
-    - **Note**: The files use probability matrices provided in `./Data/acadia_pmatrix` and `./Data/yosemite_pmatrix` by default. However, if you would like to generate your own output from `Trip Construction.ipynb` and feed into the SA-Huff_model files under the Binder environment, there is an instruction at the top of each file to switch the input.
+    - **Note**: The SA-Huff model files read data provided in `./Data/acadia_pmatrix/` and `./Data/yosemite_pmatrix/` by default. If you would like to generate your own output from `Trip Construction.ipynb` and feed into the files in Binder, you can follow the instruction at the top of the files to switch the input.
 
 ### Binder
 A Binder-ready repository, which allows you to open the Jupyter Notebook and reproduce the code in an executable environment, can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD). There is no need to download the data, code or software.
