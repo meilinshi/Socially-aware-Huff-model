@@ -7,10 +7,10 @@
   ```
 - `./Code/` contains the source code:
   - Step 1: `Trip Construction.ipynb` - a workflow to construct trip sequences, flow matrix and probability matrix from the geotagged photos
-  - Step 2: `SA-Huff_model_Acadia.ipynb` and `SA-Huff_model_Yosemite.ipynb`- workflow to calibrate the proposed socially-aware Huff model with the generated probability matrix
+  - Step 2: `SA-Huff_model_Acadia.ipynb` and `SA-Huff_model_Yosemite.ipynb` - a workflow to calibrate the proposed socially-aware Huff model with the probability matrices generated from `Trip Construction.ipynb` (also provided in the Data folder under acadia_pmatrix and yosemite_pmatrix) for the two national parks.
 
 ### Binder
-A Binder version, which allows you to open the notebooks and reproduce the code in an executable environment, can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD). There is no need to download the code or software.
+A Binder-ready repository, which allows you to open the Jupyter Notebook and reproduce the code in an executable environment, can be accessed [HERE](https://mybinder.org/v2/gh/meilinshi/Socially-aware-Huff-model/HEAD). There is no need to download the data, code or software.
 
 #### Notes
 The `requirements.txt` file should list all Python libraries that the notebooks depend on, and they will be installed using:
