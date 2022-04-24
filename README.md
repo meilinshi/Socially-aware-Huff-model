@@ -1,4 +1,5 @@
 # Socially-aware-Huff-model
+Reference: Shi, M., Janowicz, K., Cai, L., Mai, G., and Zhu, R.: A Socially Aware Huff Model for Destination Choice in Nature-based Tourism, AGILE GIScience Ser., 2, 14, https://doi.org/10.5194/agile-giss-2-14-2021, 2021.
 
 ### Data and Code
 - `./Data/` contains the data retrieved using [Flickr API](https://www.flickr.com/services/api/) in Acadia and Yosemite National Parks from Jan 1, 2010 to Dec 31, 2019. The example query used to access the data in Acadia National Park: 
